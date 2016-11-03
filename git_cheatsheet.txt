@@ -1,0 +1,40 @@
+Git Notes
+
+git init —> initializes git directory
+
+git status —> check the status of the directory
+
+git add [file] —> add file to staging area
+
+git add -A . —> add all files in directory to staging area
+
+git commit -m “ “ —> commit to git with text about what we did
+
+git remote add origin https://github.com/try-git/try_git.git
+	—> add origin to the git server
+
+git push -u origin master —> The name of our remote is origin and the default local branch name is master. The -u tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do
+
+git pull origin master —> pull down changes from origin master
+
+git diff head —> look at what isdifferent from our last commit by using the git diff command. In this case we want the diff of our most recent commit, which we can refer to using the HEAD point
+
+git diff —stage —> see any differences between staged files
+
+git resist [file] —> unstage a file
+
+git checkout — [file] —> go back to previous version
+
+git branch —> see branches available in the git
+
+git branch -b [name] —> create branch [name]
+
+git checkout [branch] —> switch to [branch]
+
+git checkout master —> switch back to master after making commits to [branch]
+
+git merge [branch] —> merge branch with master
+
+git branch -d clean_up —> delete branch when done with it
+
+git push —> push everything to remote server!
